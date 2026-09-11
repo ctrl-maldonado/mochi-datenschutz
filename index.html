@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung — Mochi</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #1c1b1a; --dim: #6b6764; --bg: #fbfaf8;
+    --card: #ffffff; --line: #e6e2dd; --accent: #7a5cff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ece9e6; --dim: #9d9894; --bg: #16151a;
+      --card: #1e1d23; --line: #302e37; --accent: #a892ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 5rem;
+    background: var(--bg); color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.3rem; margin: 2.75rem 0 .75rem; letter-spacing: -.01em;
+    padding-top: 1.5rem; border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1.05rem; margin: 1.75rem 0 .5rem; }
+  p, li { margin: 0 0 .85rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .5rem; }
+  a { color: var(--accent); }
+  code {
+    font: .875em/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    padding: .15em .4em; border-radius: .3em; word-break: break-word;
+  }
+  blockquote {
+    margin: 1.5rem 0; padding: .9rem 1.1rem;
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent); border-radius: .5rem;
+    color: var(--dim); font-size: .94rem;
+  }
+  blockquote p { margin: 0; }
+  .scroll { overflow-x: auto; margin: 1.25rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  th, td {
+    text-align: left; vertical-align: top;
+    padding: .6rem .75rem; border-bottom: 1px solid var(--line);
+  }
+  th { font-weight: 600; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  footer {
+    max-width: 44rem; margin: 4rem auto 0; padding-top: 1.5rem;
+    border-top: 1px solid var(--line); color: var(--dim); font-size: .85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Datenschutzerklärung für Mochi</h1>
+<p><strong>Stand: 10. September 2026</strong></p>
+<p>Diese Erklärung beschreibt, was die App tatsächlich tut — nachgeprüft am Quellcode. Sie ist keine Rechtsberatung.</p>
+<h2>Verantwortlich</h2>
+<p>Alex Maldonado<br>
+Fischer-von-Erlachstraße 43<br>
+5020 Salzburg<br>
+Österreich<br>
+alexlolstick@gmail.com</p>
+<h2>Kurz gesagt</h2>
+<p>Mochi hat keinen eigenen Server, kein Benutzerkonto, keine Werbung und kein Analyse-Werkzeug. Es gibt keine Fremdbibliotheken im Projekt.</p>
+<p>Dein Spielstand liegt auf deinem Gerät. Solange du die <strong>Freunde-Funktion</strong> nicht einschaltest, wird von dir nichts in der Cloud gespeichert. Was auch ohne sie mit Apple gesprochen wird, steht unter „Apple-Dienste ohne Freunde&quot;.</p>
+<h2>Was auf deinem Gerät bleibt</h2>
+<p>Dein Mochi, seine fünf Werte, sein Aussehen, deine Ahnengalerie und deine Einstellungen liegen in der App-Gruppe, die sich die App mit ihren Widgets teilt. Der Entwickler hat darauf keinen Zugriff. Solange die Freunde-Funktion aus ist, verlassen diese Daten dein Gerät nicht; ist sie an, wird ein Teil davon geteilt — was genau, steht weiter unten.</p>
+<p>Zwei Dinge, die man dazu wissen sollte:</p>
+<ul>
+<li>Wenn du <strong>iCloud-Backup oder ein Backup auf den Mac</strong> eingeschaltet hast, können diese Daten in der Gerätesicherung enthalten sein. Das ist eine Funktion deines iPhones, nicht von Mochi — der Entwickler kann auf solche Sicherungen nicht zugreifen.</li>
+<li>Löschst du die App, sind die lokalen Daten weg. Daten, die durch die Freunde-Funktion bereits in der Cloud liegen, verschwinden dadurch <strong>nicht</strong> — siehe „Deine Daten löschen&quot;.</li>
+</ul>
+<h2>Apple-Dienste ohne Freunde</h2>
+<p>Auch bei ausgeschalteten Freunden spricht die App an zwei Stellen mit Apple. Beides sind Apple-Systemdienste; der Entwickler erhält dabei keine Daten über dich.</p>
+<ul>
+<li><strong>Kaufabwicklung.</strong> Beim Start fragt die App bei Apple ab, ob „Mochi Pro&quot; gekauft ist und was es kostet.</li>
+<li><strong>iCloud-Verfügbarkeit.</strong> Öffnest du den Tab „Freunde&quot;, prüft die App beim System, ob überhaupt ein iCloud-Konto angemeldet ist — sonst könnte der Einschalten-Knopf nur scheitern. Übertragen wird dabei nichts von dir.</li>
+</ul>
+<h2>Die Freunde-Funktion (freiwillig, standardmäßig aus)</h2>
+<p>Erst wenn du <strong>Freunde einschalten</strong> wählst, werden Daten in den iCloud-Container dieser App übertragen (Apples CloudKit). Ein zusätzliches Konto brauchst du nicht; es genügt die iCloud-Anmeldung deines Geräts.</p>
+<p>Gespeichert werden dann:</p>
+<div class="scroll"><table><thead><tr>
+<th>Was</th>
+<th>Wann</th>
+<th>Inhalt</th>
+<th>Verschlüsselt?</th>
+</tr></thead><tbody>
+<tr><td><strong>Deine Code-Karte</strong></td><td>beim Einschalten</td><td>dein Anzeigename, deine Kontokennung, dein Freundescode, dein öffentlicher Schlüssel</td><td>nein — sie muss nachschlagbar sein</td></tr>
+<tr><td><strong>Freundschaftshälfte</strong></td><td>wenn du anfragst oder zustimmst</td><td>beide Kontokennungen, beide öffentlichen Schlüssel, dazu <strong>verschlüsselt</strong> beide Anzeigenamen</td><td>teilweise</td></tr>
+<tr><td><strong>Geteilter Spielstand</strong></td><td>einmal je bestätigter Freundschaft</td><td><strong>vollständig verschlüsselt</strong>: Name des Mochis, die fünf Werte, Generation, Aussehen, Geburts- und ggf. Todeszeitpunkt, Schlafzustand, dein Anzeigename</td><td>ja</td></tr>
+<tr><td><strong>Verschenkte Pflegeaktion</strong></td><td>wenn du einem Freund hilfst</td><td>an wen und wann (offen), dazu <strong>verschlüsselt</strong> welche Aktion und dein Anzeigename</td><td>teilweise</td></tr>
+</tbody></table></div>
+<p>Dazu drei Dinge, die ehrlich gesagt werden müssen:</p>
+<p><strong>Der Anzeigename ist deine Wahl.</strong> Du entscheidest, was dort steht — ein Vorname, ein Spitzname oder ein einzelner Buchstabe. Je näher er an deinem echten Namen liegt, desto eher bist du für andere identifizierbar.</p>
+<p><strong>Die Kontokennung ist keine Apple-ID.</strong> Apple vergibt sie eigens für diese App; der Entwickler bekommt weder deine Apple-Account-E-Mail-Adresse noch deinen echten Namen. Innerhalb von Mochi erkennt sie dich aber dauerhaft wieder, und deshalb ist sie ein personenbezogenes Datum.</p>
+<p><strong>Die Daten liegen in der öffentlichen Datenbank des Containers.</strong> Das ist eine technische Notwendigkeit: Ein Freundescode muss nachschlagbar sein, <em>bevor</em> sich zwei Leute kennen. Lesen kann dort jeder, der bei einem Apple-Konto angemeldet ist — nicht das offene Internet, aber eben auch nicht nur deine Freunde.</p>
+<p><strong>Deshalb ist alles verschlüsselt, was zu genau zwei Leuten gehört.</strong> Dein Gerät und das deines Freundes berechnen dafür jeweils denselben Schlüssel, ohne ihn je zu übertragen (Diffie-Hellman auf Curve25519, versiegelt mit ChaCha20-Poly1305). Der geheime Teil liegt in deinem Schlüsselbund und wird nie zusammen mit den Daten übertragen. Hast du den <strong>iCloud-Schlüsselbund</strong> eingeschaltet, gleicht Apple ihn auf deine anderen Geräte ab — das ist eine Funktion deines iPhones, sie ist ihrerseits Ende-zu-Ende-verschlüsselt, und Apple kann den Schlüssel dabei nicht lesen. Einen Zweitschlüssel für den Entwickler gibt es nicht.</p>
+<p>Eine Einschränkung, die dazugehört: Die öffentlichen Schlüssel kommen aus derselben Datenbank wie alles andere. Die App prüft, dass ein Schlüssel tatsächlich von dem Konto stammt, das ihn behauptet — eine unabhängige Bestätigung außerhalb der App (wie sie manche Messenger als Zahlenfolge zum Vergleichen anbieten) gibt es aber nicht.</p>
+<p>Was daraus folgt:</p>
+<ul>
+<li>Dein <strong>Spielstand</strong> und der <strong>Name des Helfers</strong> sind für jeden außer dem gemeinten Freund ein Block Zufall.</li>
+<li>Auch die <strong>Anzeigenamen in einer Freundschaft</strong> sind versiegelt.</li>
+<li>Was offen bleibt, sind die <strong>Kontokennungen</strong>. Sie sind die Adressen, unter denen überhaupt gesucht wird, und lassen sich nicht verschlüsseln, ohne die Funktion unmöglich zu machen. Wer deinen Freundescode hat und sich mit dem Aufbau der App auskennt, kann daran also ablesen, <strong>wie viele Freundschaften du hast und welche Konten daran beteiligt sind</strong> — aber keinen Spielstand dazu und keinen Namen aus der Freundschaft selbst. Ein Name wird nur dann daran anknüpfbar, wenn derjenige auch den Freundescode einer beteiligten Person hat, denn auf der Code-Karte steht der Name offen. Wenn dir das zu viel ist, gib deinen Code nur an Leute weiter, denen du vertraust.</li>
+<li>Auf deiner <strong>Code-Karte</strong> stehen Anzeigename und Kontokennung notwendigerweise offen: Wer deinen Code eingibt, soll ja sehen, wen er da hinzufügt.</li>
+</ul>
+<p>Der Name der Person, die dir zuletzt geholfen hat, wird auf deinem Gerät angezeigt, aber <strong>nicht</strong> an deine anderen Freunde weitergegeben.</p>
+<h2>Was Mochi ausdrücklich nicht tut</h2>
+<ul>
+<li><strong>Keine Kontakte.</strong> Die App fragt keinen Adressbuch-Zugriff an.</li>
+<li><strong>Kein Tracking.</strong> Keine Werbe-ID, keine Analyse, keine Fremdbibliotheken, keine geräteübergreifende Zusammenführung mit Daten anderer Anbieter.</li>
+<li><strong>Kein Standort, keine Fotos, kein Mikrofon, keine Kamera.</strong></li>
+<li><strong>Keine Werbe- oder Analyseanbieter</strong>, an die Daten gingen.</li>
+</ul>
+<h2>Käufe</h2>
+<p>„Mochi Pro&quot; ist ein einmaliger Kauf über Apples In-App-Kauf. Die Zahlung wickelt Apple ab. Der Entwickler erhält weder deine Zahlungsdaten noch deine Apple-ID, sondern von Apple nur zusammengefasste Verkaufszahlen ohne Bezug zu einzelnen Personen.</p>
+<h2>Benachrichtigungen</h2>
+<p>Wenn du sie erlaubst, werden Erinnerungen <strong>auf dem Gerät selbst</strong> geplant. Es gibt keine Push-Nachrichten von einem Server, und der Entwickler erfährt nicht, ob und wann du eine bekommst.</p>
+<h2>Wenn du uns schreibst</h2>
+<p>Schreibst du an die oben genannte Adresse, wird deine Nachricht samt Absenderadresse in einem Gmail-Postfach verarbeitet (Google Ireland Limited), bis dein Anliegen erledigt ist, längstens 12 Monate. Du musst nichts angeben, was über dein Anliegen hinausgeht.</p>
+<h2>Empfänger</h2>
+<ul>
+<li><strong>Apple</strong> (Apple Distribution International Ltd., Irland) — für CloudKit, Kaufabwicklung und den App Store.</li>
+<li><strong>Deine Freunde</strong> — jeweils die Daten, denen du durch deine Anfrage oder Zustimmung ausdrücklich zugestimmt hast, im Rahmen der oben beschriebenen Lesbarkeit der Datenbank.</li>
+<li><strong>Google Ireland Limited</strong> — nur, wenn du eine E-Mail schreibst. Auch Google kann dabei Daten außerhalb der EU verarbeiten, auf Grundlage der von Google verwendeten Standardvertragsklauseln.</li>
+</ul>
+<p>Es gibt keine weiteren Empfänger, keinen Verkauf von Daten und keine Weitergabe zu Werbezwecken.</p>
+<h2>Verarbeitung außerhalb der EU</h2>
+<p>Apple betreibt seine Dienste weltweit und kann Daten in Länder außerhalb der EU übermitteln, unter anderem in die USA. Grundlage dafür sind die von Apple verwendeten Standardvertragsklauseln. Näheres in Apples eigener Datenschutzrichtlinie: <a href="https://www.apple.com/legal/privacy/de-ww/">https://www.apple.com/legal/privacy/de-ww/</a> — sie gilt für Apples Verarbeitung, nicht für Mochi.</p>
+<h2>Zwecke und Rechtsgrundlagen</h2>
+<div class="scroll"><table><thead><tr>
+<th>Zweck</th>
+<th>Rechtsgrundlage</th>
+</tr></thead><tbody>
+<tr><td>Das Spiel auf deinem Gerät</td><td>Keine Verarbeitung durch den Verantwortlichen — die Daten bleiben lokal</td></tr>
+<tr><td>Freunde-Funktion: Code, Freundschaften, geteilter Spielstand, Hilfe</td><td><strong>Einwilligung</strong>, Art. 6 Abs. 1 lit. a DSGVO. Du erteilst sie mit „Freunde einschalten&quot; und widerrufst sie mit „Freunde ausschalten&quot;</td></tr>
+<tr><td>Erinnerungen</td><td>Einwilligung über die iOS-Systemabfrage; ausschließlich lokal</td></tr>
+<tr><td>Kaufabwicklung</td><td>Vertragserfüllung, Art. 6 Abs. 1 lit. b DSGVO — abgewickelt von Apple</td></tr>
+<tr><td>Beantwortung deiner E-Mail</td><td>Art. 6 Abs. 1 lit. b bzw. lit. f DSGVO (Interesse an der Beantwortung von Anfragen)</td></tr>
+</tbody></table></div>
+<p>Der Widerruf deiner Einwilligung wirkt für die Zukunft; die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung bleibt unberührt.</p>
+<h2>Wie lange gespeichert wird</h2>
+<div class="scroll"><table><thead><tr>
+<th>Daten</th>
+<th>Dauer</th>
+</tr></thead><tbody>
+<tr><td>Alles auf dem Gerät</td><td>bis du sie löschst oder die App entfernst</td></tr>
+<tr><td>Code-Karte in der Cloud</td><td>bis du die Freunde ausschaltest oder dir einen neuen Code gibst</td></tr>
+<tr><td>Freundschaftshälften</td><td>bis du die Freundschaft beendest oder die Freunde ausschaltest</td></tr>
+<tr><td>Geteilte Spielstände</td><td>ebenso</td></tr>
+<tr><td>Verschenkte Pflegeaktionen</td><td>zur Löschung vorgesehen, sobald sie älter als 7 Tage sind; entfernt werden sie beim nächsten Mal, das die App deines Geräts sich mit iCloud abgleicht — spätestens beim Ausschalten</td></tr>
+<tr><td>E-Mails</td><td>bis das Anliegen erledigt ist, längstens 12 Monate</td></tr>
+</tbody></table></div>
+<p>Die Hälfte, die dein Freund geschrieben hat, gehört ihm: Nur er kann sie löschen. Sie enthält beide Kontokennungen; die Namen darin sind verschlüsselt. Beendest du eine Freundschaft, verschwindet deine Hälfte samt dem Spielstand, den du für ihn abgelegt hattest — seine bleibt, bis er sie selbst entfernt. Willst du sie loswerden, schreib uns; wir setzen uns damit auseinander.</p>
+<h2>Deine Daten löschen</h2>
+<p><strong>In der App:</strong> Unter <strong>Freunde → Zahnrad → Freunde ausschalten</strong> werden deine Code-Karte, deine Freundschaftshälften, alle von dir abgelegten Spielstände und alle von dir verschenkten Pflegeaktionen aus der Cloud entfernt — und zuletzt dein geheimer Schlüssel vom Gerät (bei eingeschaltetem iCloud-Schlüsselbund auch von deinen anderen Geräten).</p>
+<p>Gefunden werden die Spielstände über deine Freundschaften. Sind in einem sehr seltenen Fall beide Hälften einer Freundschaft schon vorher verlorengegangen, kann ein einzelner verschlüsselter Spielstand übrig bleiben, den die App nicht mehr zuordnen kann. Lesen kann ihn niemand außer der betreffenden Person; entfernen lässt er sich auf Anfrage. Dasselbe gilt für einen alten Freundescode, dessen Freigabe an einem Netzfehler gescheitert ist und dessen Gerät seither neu aufgesetzt wurde. Scheitert das am Netz, merkt sich die App den Auftrag und bietet ihn erneut an — er geht auch durch einen Neustart nicht verloren.</p>
+<p><strong>Wichtig:</strong> Die App zu löschen führt diesen Vorgang <strong>nicht</strong> aus. Schalte die Freunde also aus, <em>bevor</em> du die App entfernst. Hast du sie schon gelöscht, installiere sie noch einmal und schalte aus — oder schreib uns.</p>
+<p>Lokale Daten entfernst du mit <strong>Einstellungen → Alles zurücksetzen</strong> oder indem du die App löschst. Auf Kopien in deinen eigenen Gerätesicherungen hat weder die App noch der Entwickler Zugriff.</p>
+<h2>Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21 DSGVO) sowie das Recht, eine Einwilligung jederzeit zu widerrufen.</p>
+<p>Damit wir deine Daten überhaupt finden, brauchen wir deinen <strong>Freundescode</strong> (in der App unter „Freunde&quot;). Er ist ein Suchschlüssel, kein Ausweis — wer ihn hat, muss nicht du sein. Bei Auskunft oder Löschung fragen wir deshalb nach etwas, das nur du wissen oder tun kannst, zum Beispiel einer Änderung in der App zu einem vereinbarten Zeitpunkt. Ohne eine solche Rückfrage geben wir keine Daten heraus.</p>
+<p>Wende dich an alexlolstick@gmail.com. Wir antworten innerhalb eines Monats.</p>
+<p>Beschwerden richtest du an die Aufsichtsbehörde:</p>
+<p><strong>Österreichische Datenschutzbehörde</strong> Barichgasse 40–42, 1030 Wien dsb@dsb.gv.at — <a href="https://www.dsb.gv.at">https://www.dsb.gv.at</a></p>
+<h2>Kinder</h2>
+<p>Mochi richtet sich an Menschen <strong>ab 13 Jahren</strong>. Eine Altersprüfung findet nicht statt; die App kann das Alter ihrer Nutzer nicht feststellen.</p>
+<p>Für die Freunde-Funktion ist das nicht die ganze Antwort. Sie beruht auf deiner Einwilligung, und wie alt man sein muss, um selbst einzuwilligen, legt jedes EU-Land eigen fest — zwischen 13 und 16 Jahren, <strong>in Österreich 14</strong>. Bist du jünger als die Grenze in deinem Land, brauchst du für die Freunde-Funktion die Zustimmung deiner Eltern. Das Spiel selbst kannst du in jedem Fall ohne sie spielen; die Freunde sind freiwillig und standardmäßig aus.</p>
+<p>Eltern, die die Daten ihres Kindes gelöscht haben möchten, erreichen uns unter der oben genannten Adresse.</p>
+<h2>Änderungen</h2>
+<p>Änderungen dieser Erklärung werden hier veröffentlicht; das Datum oben zeigt den Stand. Sieh gelegentlich nach — die App kann dich darauf nicht hinweisen, weil sie dafür eine Verbindung bräuchte, die es nicht gibt.</p>
+</main>
+<footer>Mochi — ein virtuelles Haustier für iPhone-Widgets.</footer>
+</body>
+</html>
